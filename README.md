@@ -11,26 +11,26 @@ To install plug-in:
 
  - Add jQuery library into head section of your document. As example:
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"&gt;&lt;/script&gt;
 
  - Upload script to your project folder, or use direct link from GitHub to include script 
    into head section of your document:
 
-		<script src="jquery.rubic.js"></script>
+		&lt;script src="jquery.rubic.js"&gt;&lt;/script&gt;
 
  - To initialize plug-in you need to call it for HTML-list having the following structure:
 
-    <ul id="gallery">
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-      <li><img src="path to full image" /><span>Caption for this image</span></li>
-    </ul>
+    &lt;ul id="gallery"&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
     
 
     Running plug-in for ul#gallery:
@@ -57,26 +57,26 @@ jQuery плагин, добавляющий галерее эффект напо
  - Добавьте в секцию head вашего документа скрипт библиотеки jQuery если вы не используете её в своём проекте.
    Пример:
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"&gt;&lt;/script&gt;
 
  - Загрузите скрипт плагина в папку для скриптов вашего проекта или используйте прямую ссылку на файл из GitHub чтобы
    добавить скрипт плагина в секцию head вашего документа. Пример:
 
-  	<script src="jquery.rubic.js"></script>
+  	&lt;script src="jquery.rubic.js"&gt;&lt;/script&gt;
 
  - Для работы плагина необходимо применить его к HTML-списку имеющему следующую структуру:
 
-    <ul id="gallery">
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-      <li><img src="путь к полноразмерному изображению" /><span>Краткое описание изображения</span></li>
-    </ul>
+    &lt;ul id="gallery"&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src="путь к полноразмерному изображению" /&gt;&lt;span&gt;Краткое описание изображения&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
     
 
     Применяем плагин к списку ul#gallery:
