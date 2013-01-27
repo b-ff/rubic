@@ -21,16 +21,27 @@ To install plug-in:
  - To initialize plug-in you need to call it for HTML-list having the following structure:
 
     &lt;ul id="gallery"&gt;
+    
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
       &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
     &lt;/ul&gt;
+    
     
 
     Running plug-in for ul#gallery:
