@@ -22,25 +22,26 @@ To install plug-in:
 
     &lt;ul id="gallery"&gt;
     
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
-      	&lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
-      	
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;img src="path to full image" /&gt;&lt;span&gt;Caption for this image&lt;/span&gt;&lt;/li&gt;
+      
     &lt;/ul&gt;
+    
     
     
 
