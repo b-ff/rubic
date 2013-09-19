@@ -20,10 +20,11 @@
 		this.addClass("rubic");
 
 		/* Restyling gallery items */
-		this.children("li").each(function() {
-			$(this).css({
+		this.children("li").each(function(index, object) {
+			var li = $(object);
+			li.css({
 				'float': 'left',
-				'background-image': 'url("'+$(this).find("img:first").attr("src")+'")',
+				'background-image': 'url("' + li.find("img:first").attr("src") + '")',
 				'width': options.itemSize + 'px',
 				'height': options.itemSize + 'px',
 				'marginRight': options.itemMargin + 'px',
@@ -33,13 +34,13 @@
 				'cursor': 'pointer'
 			});
 
-			$(this).addClass("rubic-item");
+			li.addClass("rubic-item");
 
-			$(this).find("img:first").remove();
+			li.find("img:first").remove();
 
-			
+
 			/* Restyling span elements and setting up events */
-			$(this).find("span").hide().css({
+			li.find("span").hide().css({
 				'position': 'absolute',
 				'bottom': '0px',
 				'left': '0px',
@@ -52,11 +53,9 @@
 				'borderBottomRightRadius': options.itemRadius + 'px'
 			});	
 
-			$(this).hover(
+			li.hover(
 				function() {
-					$(this).parent().children("li").each(function() {
-						$(this).find("span:first").stop().fadeOut()
-					});
+					$(this).parent().find("li span:first").stop().fadeOut();
 					$(this).find("span:first").delay(300).fadeIn(400, function() { $(this).stop(); });
 				},
 				function() {
@@ -130,7 +129,7 @@
 				'position': 'absolute',
 				'bottom': (options.rubicCount - coords[0]) * (options.itemSize + options.itemMargin) + options.itemMargin,
 				'right': (options.rubicCount - coords[1]) * (options.itemSize + options.itemMargin) + options.itemMargin,
-				'z-index': 200,
+				'z-index': 200
 				//'marginRight': 0 + 'px',
 				//'marginBottom': 0 + 'px',
 			});
